@@ -21,8 +21,8 @@ html {
 }
 
 .hero {
-  background-image: url(http://kosraenautilus.com/img/home.jpg);
-  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("http://kosraenautilus.com/img/home.jpg") no-repeat;
+  background-image: url("/images/Kosrae.jpg");
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55)  url("/images/Kosrae.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -68,7 +68,6 @@ html {
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
   line-height: 38px;
   font-weight: 600;
-  text-transform: lowercase;
   letter-spacing: 1px;
   font-size: 1rem;
 }
@@ -339,5 +338,10 @@ body.preloader-site {
   width: 120px;
 }
 
+
 .white
 {color:ghostwhite}
+
+.jrContainer:hover .jrOverlay {
+  opacity: 1;
+}

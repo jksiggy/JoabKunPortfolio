@@ -1,415 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>JoabKunPortfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
-      integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="../css/portfolio.css" />
-    <script
-      src="https://kit.fontawesome.com/2828f7885a.js"
-      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="icon" type="image/png" href="favicon.png" />
-  </head>
 
-  <body>
-    <!-- Begin Preloader -->
-    <div class="preloader-wrapper">
-      <div class="preloader">
-        <img src="img/preloader.gif" alt="" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JoabKunPortfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+    integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+
+  <link rel="stylesheet" href="devicon.css">
+  <link rel="stylesheet" type="text/css" href="../css/portfolio.css" />
+  <script src="https://kit.fontawesome.com/2828f7885a.js"
+    integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+    crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+
+<body>
+  <!-- Begin Preloader -->
+  <div class="preloader-wrapper">
+    <div class="preloader">
+      <img src="img/preloader.gif" alt="" />
+    </div>
+  </div>
+  <!-- End Preloader-->
+  <!-- Begin Scroll Up Button -->
+
+  <form action="#home">
+    <button id="toTop" title="Go to top">
+      <i class="fas fa-angle-up"></i>
+    </button>
+  </form>
+  <!-- End Scroll Up Button -->
+
+  <!-- Begin Header -->
+  <div class="header-wrapper" id="home">
+    <!-- Begin Hero -->
+    <section class="hero is-large">
+      <!-- Begin Mobile Nav -->
+      <nav class="navbar is-transparent is-hidden-desktop">
+        <!-- Begin Burger Menu -->
+        <div class="navbar-brand">
+          <div class="navbar-burger burger" data-target="mobile-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- End Burger Menu -->
+        <div id="mobile-nav" class="navbar-menu">
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <a class="navbar-item" href="#home">
+                Home
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#about-me">
+                About Me
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#technologies">
+                Technologies
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#my-work">
+                My Work
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#contact">
+                Contact
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Mobile Nav -->
+      <!-- Begin Hero Content-->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">Joab Kun </h1>
+          <h2 class="subtitle profession"> SOFTWARE ENGINEER</h2>
+        </div>
+      </div>
+      <!-- End Hero Content-->
+      <!-- Begin Hero Menu -->
+      <div class="hero-foot ">
+        <div class="hero-foot--wrapper">
+          <div class="columns">
+            <div class="column is-12 hero-menu-desktop has-text-centered">
+              <ul>
+                <li class="is-active">
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                  <a href="#technologies">Technologies</a>
+                </li>
+                <li>
+                  <a href="#my-work">My Work</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Hero Menu -->
+    </section>
+    <!-- End Hero -->
+  </div>
+  <!-- End Header -->
+
+  <!-- Begin Main Content -->
+  <div class="main-content">
+    <!-- Begin About Me Section -->
+    <div class="section-light about-me" id="about-me">
+      <div class="container">
+        <div class="column is-12 about-me">
+          <h1 class="title has-text-centered section-title">About Me</h1>
+        </div>
+        <div class="columns is-multiline">
+          <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
+
+
+            <p>
+              I am an enthusiastic and creative full-stack developer with a strong passion for learning the software
+              industry technology and everyday programming. I
+              started from worked as industrial maintenance and with
+              all the new technologies, the software has
+              become a huge part of running almost
+              everything. From the conveyor to scanner
+              even work-orders for parts and equipment.
+              which make me think about making a huge
+              career change into software industries. I
+              went and applied to Nashville software
+              school for full stack web development to
+              pursue my software skills.
+              Always Stay Cool, get work done, and help each other.
+
+            </p>
+            <br />
+            <div class="is-divider"></div>
+            <div class="columns about-links">
+              <div class="column">
+                <p class="heading">
+                  <i class="fas fa-phone-volume fa-6x"></i>
+                </p>
+                <p class="subheading">
+                  <a href="tel:931-249-2427">931-249-2427</a>
+                </p>
+              </div>
+              <div class="column">
+                <p class="heading">
+                  <i class="fas fa-envelope fa-6x"></i>
+                </p>
+                <p class="subheading">
+                  <a href="mailto:jksiggy@gmial.com">jksiggy@gmail.com</a>
+                </p>
+              </div>
+              <div class="column">
+                <p class="heading">
+                  <i class="fab fa-github-square fa-6x"></i>
+                </p>
+                <p class="subheading">
+                  <a href="https://github.com/jksiggy">GitHub</a>
+                </p>
+              </div>
+              <div class="column">
+                <p class="heading">
+                  <i class="fab fa-linkedin fa-6x"></i>
+                </p>
+                <p class="subheading">
+                  <a href="https://www.linkedin.com/in/joab-sigrah-0b2639133/">LinkedIn</a>
+                </p>
+              </div>
+
+            </div>
+          </div>
+          <div class="column is-6 right-image " data-aos="fade-left">
+            <img class="is-rounded"
+              src="https://inteng-storage.s3.amazonaws.com/img/iea/nR6bV9jp6o/sizes/learntocodebundle_resize_md.jpg"
+              alt="" />
+          </div>
+        </div>
       </div>
     </div>
-    <!-- End Preloader-->
-    <!-- Begin Scroll Up Button -->
-
-    <form action="#home">
-      <button id="toTop" title="Go to top">
-        <i class="fas fa-angle-up"></i>
-      </button>
-    </form>
-    <!-- End Scroll Up Button -->
-
-    <!-- Begin Header -->
-    <div class="header-wrapper" id="home">
-      <!-- Begin Hero -->
-      <section class="hero is-large">
-        <!-- Begin Mobile Nav -->
-        <nav class="navbar is-transparent is-hidden-desktop">
-          <!-- Begin Burger Menu -->
-          <div class="navbar-brand">
-            <div class="navbar-burger burger" data-target="mobile-nav">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-          <!-- End Burger Menu -->
-          <div id="mobile-nav" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a class="navbar-item" href="#home">
-                  Home
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#about-me">
-                  About Me
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#technologies">
-                  Technologies
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#my-work">
-                  My Work
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#contact">
-                  Contact
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-- End Mobile Nav -->
-        <!-- Begin Hero Content-->
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <h1 class="subtitle">Hey there, I'm</h1>
-            <h2 class="title">Joab Kun</h2>
-            <h1 class="subtitle profession">A SOFTWARE ENGINEER</h1>
-          </div>
-        </div>
-        <!-- End Hero Content-->
-        <!-- Begin Hero Menu -->
-        <div class="hero-foot ">
-          <div class="hero-foot--wrapper">
-            <div class="columns">
-              <div class="column is-12 hero-menu-desktop has-text-centered">
-                <ul>
-                  <li class="is-active">
-                    <a href="#home">Home</a>
-                  </li>
-                  <li>
-                    <a href="#about-me">About Me</a>
-                  </li>
-                  <li>
-                    <a href="#technologies">Technologies</a>
-                  </li>
-                  <li>
-                    <a href="#my-work">My Work</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Hero Menu -->
-      </section>
-      <!-- End Hero -->
-    </div>
-    <!-- End Header -->
-
-    <!-- Begin Main Content -->
-    <div class="main-content">
-      <!-- Begin About Me Section -->
-      <div class="section-light about-me" id="about-me">
-        <div class="container">
+    <!-- End About Me Content -->
+    <div class="section-dark resume">
+      <div class="container">
+        <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
           <div class="column is-12 about-me">
-            <h1 class="title has-text-centered section-title">About Me</h1>
+            <h1 class="title has-text-centered section-title">
+              View My Resume
+            </h1>
           </div>
-          <div class="columns is-multiline">
-            <div
-              class="column is-6 has-vertically-aligned-content"
-              data-aos="fade-right"
-            >
-              
-             
-              <p>
-                 I am an enthusiastic and creative full-stack developer with a strong passion for learning the software industry technology and everyday programming."Always Stay Cool, get work done, and help each other.""
-              </p>
-              <br />
-              <div class="is-divider"></div>
-              <div class="columns about-links">
-                <div class="column">
-                  <p class="heading">
-                    <i class="fas fa-phone-volume fa-6x"></i>
-                  </p>
-                  <p class="subheading">
-                      <a href="tel:931-249-2427">931-249-2427</a>
-                  </p>
-                </div>
-                <div class="column">
-                  <p class="heading">
-                    <i class="fab fa-github-square fa-6x"></i>
-                  </p>
-                  <p class="subheading">
-                      <a href="https://github.com/jksiggy">GitHub</a>
-                  </p>
-                </div>
-                <div class="column">
-                  <p class="heading">
-                    <i class="fab fa-linkedin fa-6x"></i>
-                  </p>
-                  <p class="subheading">
-                      <a href="https://www.linkedin.com/in/joab-sigrah-0b2639133/">LinkedIn</a>
-                  </p>
-                </div>
-                
-              </div>
-            </div>
-            <div class="column is-6 right-image " data-aos="fade-left">
-              <img
-                class="is-rounded"
-                src="https://inteng-storage.s3.amazonaws.com/img/iea/nR6bV9jp6o/sizes/learntocodebundle_resize_md.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End About Me Content -->
-      <div class="section-dark resume">
-        <div class="container">
-          <div
-            class="columns is-multiline"
-            data-aos="fade-in"
-            data-aos-easing="linear"
-          >
-            <div class="column is-12 about-me">
-              <h1 class="title has-text-centered section-title">
-                View My Resume
-              </h1>
-            </div>
-            <div class="column is-10 has-text-centered is-offset-1">
-              <h2 class="subtitle">
-              
-              </h2>
-              <form action="Resume/Joab Sigrah Resume.pdf">
-                <button class="button">
-                  Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Begin Technologies Content -->
-      <div class="section-color technologies" id="technologies">
-        <div class="container">
-          <div class="columns is-multiline">
-            <div
-              class="column is-12 about-me"
-              data-aos="fade-in"
-              data-aos-easing="linear"
-            >
-              <h1 class="title has-text-centered section-title">Technologies</h1>
+          <div class="column is-10 has-text-centered is-offset-1">
+            <h2 class="subtitle">
 
-              <h2 class="subtitle">
-               
-              </h2>
-              <br />
-            </div>
-            <div class="columns is-12">
-              <div
-                class="column is-4 has-text-centered"
-                data-aos="fade-in"
-                data-aos-easing="linear"
-              >
-              <i class="fab fa-html5 fa-4x"></i>
-                <hr />
-                <h2>
-                  HTML, Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
-                </h2>
-              </div>
-              
-              <div
-                class="column is-4 has-text-centered"
-                data-aos="fade-in"
-                data-aos-easing="linear"
-              >
-               <i class="fab fa-css3-alt fa-4x"></i>
-                <hr />
-                <h2>
-                  CSS, style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.
-                </h2>
-              </div>
-              <div
-                class="column is-4 has-text-centered"
-                data-aos="fade-in"
-                data-aos-easing="linear"
-              >
-                <i class="fab fa-github-square fa-4x"></i>
-                <hr />
-                <h2>
-                  GitHub,  is an open-source repository hosting service, sort of like a cloud for code. It hosts your source code projects in a variety of different programming languages and keeps track of the various changes made to every iteration.
-                </h2>
-              </div>
-            </div>
-            <hr />
-            <div class="columns is-12">
-              <div
-                class="column is-4 has-text-centered"
-                data-aos="fade-in"
-                data-aos-easing="linear"
-              >
-              <i class="fab fa-js fa-4x"></i>
-                <hr />
-                <h2>
-                  JavaScript, often abbreviated as JS, is a high-level, interpreted scripting language that conforms to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions
-                </h2>
-              </div>
-              <div
-                class="column is-4 has-text-centered"
-                data-aos="fade-in"
-                data-aos-easing="linear"
-              >
-              <i class="fas fa-database fa-4x"></i>
-                <hr />
-                <h2>
-                  SQL DataBase
-                </h2>
-              </div>
-              <div
-                class="column is-4 has-text-centered"
-                data-aos="fade-in"
-                data-aos-easing="linear"
-              >
-              <i class="fab fa-react fa-4x"></i>
-                <hr />
-                <h2>
-                  React.Js, javascript library which is used for building user interfaces specifically for single page applications. It's used for handling view layer for web and mobile apps. React also allows us to create reusable UI components.
-                </h2>
-              </div>
-              
-            </div>
+            </h2>
+            <form action="Resume/Joab Sigrah Resume.pdf">
+              <button class="button">
+                Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
+              </button>
+            </form>
           </div>
         </div>
       </div>
-      <!-- End Technology Content -->
-      <!-- Begin Work Content -->
-      <div class="section-dark my-work" id="my-work">
-        <div class="container">
-          <div
-            class="columns is-multiline"
-            data-aos="fade-in"
-            data-aos-easing="linear"
-          >
-            <div class="column is-12">
-              <h1 class="title has-text-centered section-title">My Work</h1>
-            </div>
-            <div class="column is-3">
-                <a href="https://github.com/jksiggy/frontend_capstone" target="_blank"><img src="images/FrontEnd.png"  class="image is-1by work-item" ><figure
-                ></figure>
-                </a>
-                <p>Front-End Capstone "IPARTY"</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Work Content -->
-      <!-- Begin Contact Content -->
-      <div class="section-light contact" id="contact">
-        <div class="container">
-          <div
-            class="columns is-multiline"
-            data-aos="fade-in-up"
-            data-aos-easing="linear"
-          >
-            <div class="column is-12 about-me">
-              <h1 class="title has-text-centered section-title">
-                Get in touch
-              </h1>
-            </div>
-            <div class="column is-8 is-offset-2">
-              <form id ="myForm"
-                action="mailto:jksigy@gmail.com.com"
-                method="POST">
-              
-                <div class="field">
-                  <label class="label">Name</label>
-                  <div class="control has-icons-left">
-                    <input
-                      class="input"
-                      type="text"
-                      placeholder="Ex. Jane Smith"
-                      name="Name"
-                    />
-                    <span class="icon is-small is-left">
-                      <i class="fas fa-user"></i>
-                    </span>
-                  </div>
-                </div>
-                <div class="field">
-                  <label class="label">Email</label>
-                  <div class="control has-icons-left">
-                    <input
-                      class="input"
-                      type="email"
-                      placeholder="Ex. hello@arctheme.com"
-                      name="Email"
-                    />
-                    <span class="icon is-small is-left">
-                      <i class="fas fa-envelope"></i>
-                    </span>
-                  </div>
-                </div>
-                <div class="field">
-                  <label class="label">Message</label>
-                  <div class="control">
-                    <textarea
-                      class="textarea"
-                      placeholder="Textarea"
-                      name="Message"
-                    ></textarea>
-                  </div>
-                </div>
-                <div class="field">
-                  <div class="control ">
-                      <button class="button submit-button">
-                          Submit&nbsp;&nbsp;
-                          <i class="fas fa-paper-plane"></i>
-                   
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Contact Content -->
     </div>
-    <!-- End Main Content -->
+    <!-- Begin Technologies Content -->
+    <div class="section-color technologies" id="technologies">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-12 about-me" data-aos="fade-in" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Technologies</h1>
 
-    <!-- Begin Footer -->
-   
+            <h2 class="subtitle">
+            </h2>
+            <br />
 
-    <!-- Scripts -->
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../js/portfolio.js"></script>
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        easing: "ease-out",
-        duration: 800,
-      });
-    </script>
-  </body>
+          </div>
+          <div class="columns is-12">
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="devicon-html5-plain colored"></i>
+            </div>
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="devicon-css3-plain colored"></i>
+            </div>
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="devicon-csharp-plain colored"></i>
+            </div>
+          </div>
+          <div class="columns is-12">
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="devicon-dot-net-plain-wordmark colored"></i>
+            </div>
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="devicon-react-original colored"></i>
+            </div>
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="devicon-mysql-plain colored"></i>
+            </div>
+          </div>
+
+          <div class="columns is-12">
+
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="devicon-visualstudio-plain colored"></i>
+            </div>
+
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="devicon-git-plain colored"></i>
+            </div>
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="devicon-javascript-plain colored"></i>
+
+            </div>
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="fas fa-database fa-3x"></i>
+
+            </div>
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <i class="fab fa-npm fa-4x"></i>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Technology Content -->
+  <!-- Begin Work Content -->
+  <div class="section-dark my-work" id="my-work">
+    <div class="container">
+      <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
+        <div class="column is-12">
+          <h1 class="title has-text-centered section-title">My Work</h1>
+        </div>
+        <div class="column is-3">
+          <a href="https://github.com/jksiggy/frontend_capstone" target="_blank"><img src="images/FrontEnd.png"
+              class="image is-1by work-item">
+            <div class="jrOverlay">FrontEnd Project</div>
+            <figure></figure>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Work Content -->
+  <!-- Begin Contact Content -->
+  <div class="section-light contact" id="contact">
+    <div class="container">
+      <div class="columns is-multiline" data-aos="fade-in-up" data-aos-easing="linear">
+        <div class="column is-12 about-me">
+          <h1 class="title has-text-centered section-title">
+            Get in touch
+          </h1>
+        </div>
+        <div class="column is-8 is-offset-2">
+          <form id="myForm" action="mailto:jksiggy@gmail.com" method="POST" enctype="text/plain">
+
+            <div class="field">
+              <label class="label">Name</label>
+              <div class="control has-icons-left">
+                <input class="input" type="text" placeholder="Ex. Jane Smith" name="Name" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left">
+                <input class="input" type="email" placeholder="Ex. hello@arctheme.com" name="Email" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Textarea" name="Message"></textarea>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control ">
+                <button class="button submit-button">
+                  Submit&nbsp;&nbsp;
+                  <i class="fas fa-paper-plane"></i>
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Content -->
+  </div>
+  <!-- End Main Content -->
+
+  <!-- Begin Footer -->
+
+
+  <!-- Scripts -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../js/portfolio.js"></script>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: "ease-out",
+      duration: 800,
+    });
+  </script>
+</body>
+
 </html>
