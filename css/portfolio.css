@@ -6,6 +6,7 @@
   justify-content: center;
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -96,6 +97,10 @@ html {
   padding-top: 2rem;
   color: #3c4172;
   font-family: 'Poppins', sans-serif;
+}
+
+.navbar-burger {
+  color: #f0f3f5
 }
 
 .main-content .section-dark {
